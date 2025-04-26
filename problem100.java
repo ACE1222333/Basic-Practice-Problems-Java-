@@ -26,6 +26,7 @@ public class problem100 {
         }
 
         System.out.print("Max Value: " + max_value);
+        System.out.println("Testing");
 
     }
 }
