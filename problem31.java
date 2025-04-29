@@ -2,7 +2,7 @@
 
 //Check if an array is a palindrome.
 
-import java.util.Scanner;
+import java.util.Scanner;.....
 
 public class problem31 {
     public static void main(String[] args) {
@@ -11,16 +11,15 @@ public class problem31 {
         int size = scanner.nextInt();
         
         int[] arr = new int[size];
-
+ylo
         for (int i = 0; i < size; i++) {
             System.out.print("Enter number for index " + i + ": ");
             int input = scanner.nextInt();
             arr[i] = input;
         }
 
-
         int j = size - 1;
-        boolean isPalindrome = true;
+        boolean isPalindrome = true;wfffffffffhhhhhhhhhhh .
 
         for (int number : arr) {
             if (number != arr[j--]) {
@@ -36,9 +35,5 @@ public class problem31 {
         }
 
         scanner.close();
-
-
-
-        
     }
 }

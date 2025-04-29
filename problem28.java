@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+
+//Find the second smallest element.
 public class problem28 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
